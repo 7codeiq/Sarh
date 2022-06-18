@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="العربية" dir="rtl">
+
+<head>
+    <title>صرح الحضارة | للمعالجات الانشائية ومواد البناء</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/8840148a3b.js" crossorigin="anonymous"></script>
+    <!-- custom css file link -->
+    <link href="style.css" rel="stylesheet" />
+    <link href="css/global/animate3.2.3.min.css" rel="stylesheet" />
+    <!-- font awesome kit link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Dongle&family=Roboto+Condensed&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body id="particles-js">
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="https://sarhalhadhara.com">
+                    <img src="img/logo.png" alt="صرح الحضارة" />
+                </a>
+            </div>
+            <div class="main-menu">
+                <nav class="menu">
+                    <ul>
+                        <li><span class="li"></span><a href="index.html">الرئيسية</a></li>
+                        <li><span class="span"></span><a href="services.html">خدماتنا</a></li>
+                        <li><span class="span"></span><a href="store.html">المتجر</a></li>
+                        <li><span class="span"></span><a href="projects.html">مشاريعنا</a></li>
+                        <li><span class="span"></span><a href="thoughts.html">افكار</a></li>
+                        <li><span class="span"></span><a href="about.html">من نحن</a></li>
+                        <li><span class="span"></span><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <button id="toggle" class="toggle-container">
+                <div class="toggle"></div>
+            </button>
+        </div>
+        </div>
+        <div id="menu" class="mob-menu">
+            <nav class="m-menu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
+                    <li><a href="projects.html">مشاريعنا</a></li>
+                    <li><a href="thoughts.html">افكار</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script>
+            let toggle = document.getElementById('toggle'),
+                menu = document.getElementById('menu');
+            toggle.addEventListener('click', function (e) {
+                this.classList.toggle('open-menu');
+                menu.classList.toggle('open-menu');
+            });
+        </script>
+    </header>
+
+    <section class="container">
+        <div class="slider">
+            <div class="slide-img">
+                <img src="img/1.png">
+            </div>
+            <div class="img-sidetext-left fade">
+                <h1>اعمال حقن تسربات المياه للخزانات والسراديب وتبطينها بانظمة عزل مائي بطرق ومنتجات مختلفة </h1>
+                <p>بالاضافة لاعمال الانكرنك (زرع حديد التسليح) والمعالجات الاخرى</p>
+                <div class="align-center">
+                    <a href="#">اضغط لمعرفة المزيد<img src="img/lar.png" style="width:50px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="img-sidetext-left fade">
+                <h1>اعمال طلاء الارضيات بمادة الايبوكسي الصناعي والغذائي لمختلف الابنية وحسب وظيفة المنشأ </h1>
+                <p>(صالات العمليات-الكراجات-المولات)</p>
+                <div class="align-center">
+                    <a href="#" style="text-align: center; ">
+                        <span> اضغط لمعرفة المزيد </span><img src="img/lar.png" style="width:50px"></a>
+                </div>
+            </div>
+            <div class="slide-img-left">
+                <img src="img/2.png">
+            </div>
+        </div>
+        <div class="slider">
+            <div style="text-align:center">
+            </div>
+            <div class="slide-img">
+                <img src="img/3.png">
+            </div>
+            <div class="img-sidetext fade">
+                <h1>اعمال المعالجات الانشائية باستخدام التدعيم بالياف الكاربون ذات المناشى العالمية ومعالجات التسوسات في
+                    الهياكل باستخدام كراوت </h1>
+                <p>(خلطات كونكريت جاهزة ذات تحمل عالي)</p>
+                <div class="align-center">
+                    <a href="#" style="text-align: center; ">
+                        <span> اضغط لمعرفة المزيد </span><img src="img/lar.png" style="width:50px"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="slide-dot">
+        <div class="ind"></div>
+        <div class="ind"></div>
+        <div class="ind"></div>
+    </div>
+
+    <style>
+        .particles-js-canvas-el {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 0;
+            top: 0;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>particlesJS("particles-js", { "particles": { "number": { "value": 9, "density": { "enable": false, "value_area": 5287.289198936227 } }, "color": { "value": "#ffffff" }, "shape": { "type": "polygon", "stroke": { "width": 0, "color": "#ffffff" }, "polygon": { "nb_sides": 6 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.14204657549380909, "random": true, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 43.403120289774996, "random": false, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true }); var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;</script>
+    <script type="text/javascript" src="js/slider.js"></script>
+
+    <div class="space-m"></div>
+    <section class="container bg">
+        <div class="block tg">
+            <div class="heading">
+                <span>الحلول الهندسية التي توفرها الشركة</span>
+            </div>
+            <div class="text">
+                <span>توفر شركتنا الحلول الهندسية لجميع المشاكل الانشائية التي تواجه العاملين في مجال الانشاءات باستخدام
+                    مواد تخصصية ذات مواصفات عالية ومن مناشى رصينة وضمن المواصفات الهندسية وبالاستناد على المواصفات
+                    الفنية للمنتج وحسب توصيات الشركات المصنعة وبتنفيذ كوادر فنية متدربة وحاصلة على شهادة تدريب من قبل
+                    خبراء متخصصين </span>
+            </div>
+        </div>
+        <div class="img">
+            <img src="img/5.jpg" alt="">
+        </div>
+    </section>
+    <div class="space-m"></div>
+    <section class="block up">
+        <div class="heading">
+            <span>خدمات واعمال الشركة</span>
+        </div>
+        <div class="table">
+            <section class="table-container">
+                <div class="block">
+                    <div class="heading">
+                        <span>المعالجات الانشائية</span>
+                    </div>
+                    <div class="text">
+                        <span>تتضمن اعمال التدعيم بالياف الكاربون واعمال حقن الايبوكسي والاسس ومعالجة التششقات
+                            والتسوسسات (الانعزال )في جسم المنشا </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/treatment.png" alt="">
+                </div>
+            </section>
+            <section class="table-container">
+                <div class="block">
+                    <div class="heading">
+                        <span>العزل المائي</span>
+                    </div>
+                    <div class="text">
+                        <span>تتضمن جميع اعمال حماية المنشات من تاثير الرطوبة باستخدام طلاء الايبوكسي – البولي يوريثان –
+                            الايبوكسي الهجين – الطلاء الاسمنتي – الاكرلك</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/water.png" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="table">
+            <section class="table-container">
+                <div class="block">
+                    <div class="heading">
+                        <span>التسطيح</span>
+                    </div>
+                    <div class="text">
+                        <span>اعمال التسطيح باستخدام نظام عزل متكامل باستخدا الخرسانة خفيفة الوزن (فوم كونكريت –الليكا
+                            )</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/facing.png" alt="">
+                </div>
+            </section>
+            <section class="table-container">
+                <div class="block">
+                    <div class="heading">
+                        <span>زرع حديد التسليح</span>
+                    </div>
+                    <div class="text">
+                        <span>اعمال زرع حديد التسليح والتدعيم باستخدام اضافة المقاطع الحديدية </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/steel.png" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="table">
+            <section class="table-container">
+                <div class="block">
+                    <div class="heading">
+                        <span>معالجة خزانات المياه</span>
+                    </div>
+                    <div class="text">
+                        <span>اعمال معالجة خزانات المياه ومحطات الصرف الصحي</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/tank.png" alt="">
+                </div>
+            </section>
+            <section class="table-container">
+                <div class="block">
+                    <div class="heading">
+                        <span>طلاء الارضيات</span>
+                    </div>
+                    <div class="text">
+                        <span>اعمال طلاء الارضيات اعمال صيانة وطلاء ارضيات الايبوكسي للكراجات والمولات والاسطح</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/floor.png" alt="">
+                </div>
+            </section>
+        </div>
+    </section>
+    <div class="space-m"></div>
+    <section class="container">
+        <div class="block">
+            <div class="heading">
+                <span>المواد الانشائية التخصصية التي توفرها الشركة</span>
+            </div>
+            <div class="text">
+                <span>تسند الشركتنا على قاعدة رصينة من الشركات المصنعة العالمية للمواد الكمياوية التخصصية 
+                    (شركة فوسروك البريطانية – شركة مابي الايطالية  - شركة كاربولاين الامريكية للايبوكسيات – شركة باك الامارتية –شركة الكمكا اليونانية- وشركات تركية ساندة للواصق السيراميك والثرمستون)
+                    </span>
+            </div>
+            <div class="text">
+                <span>من اهم المشاكل والصعوبات التي يوجهها مجال العمل في المعالجات الانشائية هي زيادو الكلفة نتيجة كثرةالمنتجات
+                    في السوق وصعوبة التوصيف الهندسي المثالي لها.
+                </span>
+            </div>
+            <div class="text">
+                <span>لذلك نسعى دائما في عملنا لتوصيف الحل المثالي والاستخدام الافضل للمنتجات لاعطاء الجودة المطلوبة دون التاثير على الجدوى الاقتصادية</span>
+            </div>
+        </div>
+        <div class="img">
+            <img src="img/products.png" width="650px" alt="">
+        </div>
+    </section>
+    <section class="container order">
+        <div class="img flep" id="one">
+            <img src="img/vision.png" width="650px" alt="">
+        </div>
+        <div class="block" id="two">
+            <div class="heading">
+                <span>اهداف ورؤية الشركة</span>
+            </div>
+            <div class="text">
+                <span>تأسست الشركة سنة 2018 كمكتب هندسي للمعالجات الانشاية وتنفيذ الابنية وتجارة مواد البناء التخصصية</span>
+            </div>
+            <div class="text">
+                <span>تهدف الشركة لتحقيق التميز من خلال تقديم الخدمات الانشائية بجودة عالية وبكوادر هندسية وفنية تلبي متطلبات بيئة العمل واحتياجاتكم بأستخدام احدث الاليات والمعدات.</span>
+            </div>
+            <div class="text">
+                <span>رؤيتنا هي الريادة لتقديم حلول فعالة ومتكاملة في مجال المعالجات الانشائية التخصصية وتجارة كيمياويات البناء المتطورة ومن مناشىئ رصينة وبأسعار تنافسية لنكون خياركم الاول في مجال البناء الحديث.</span>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="flex">
+            
+            <div class="social">
+                <ul>
+                    <li class="icon-list-item"><a href="https://www.facebook.com/sarhalhadhara/"><span
+                                class="list-icon">
+                                <i aria-hidden="true" class="fab fa-facebook-square"></i></span></a>
+                    </li>
+                    <li class="inline-item"><a href="https://www.instagram.com/s_alhadhara/"><span class="list-icon">
+                                <i aria-hidden="true" class="fab fa-instagram"></i></span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p> صرح الحضارة Copyright © 2022 </p>
+
+            </div>
+        </div>
+        
+
+        <div class="designed">
+            <span style="font-size: 9pt;">برمجة وتصميم<a href="https://pearlfibers.com"
+                style="color:#fff;font-size:16px"> PearlFibers<img
+                    src="https://signals.sa-toshi.com/wp-content/uploads/2022/01/Wight-Logo-PF.png"
+                    width="35px;" style="margin-left:5px;margin-right:2px;vertical-align: middle;"
+                    alt="Your dreams is about to come true"></a></span>
+        </div>
+    </footer>
+</body>
+
+</html>
